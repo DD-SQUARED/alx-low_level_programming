@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * main - A program prints a line using the printf function
+ * main - Entry point
  * Return: 0 (Success)
+ * Description: displays a string using printf
  */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
+}
