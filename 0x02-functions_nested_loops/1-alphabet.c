@@ -1,8 +1,11 @@
 #include "main.h"
-#include <unistd.h>
+
 
 	/**
 	 * print_alphabet - print all alphabet in lowercase
+	 * Description:
+	 * This function prints all the lowercase alphabets
+	 * Return: none
 	 */
 
 
