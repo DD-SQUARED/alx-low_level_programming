@@ -1,10 +1,11 @@
 #include "main.h"
 /**
-* print_triangle , prints a triangle using character #
+* print_triangle -  prints a triangle using character #
+* @size: prints the number of # characaters
 * Returns: none
 */
 
-void print_triangle (int  size)
+void print_triangle(int  size)
 {
 	int hash, index;
 
@@ -24,9 +25,10 @@ void print_triangle (int  size)
 			{
 				continue;
 			}
-			_putchar ('\n');
+			_putchar('\n');
+
 		}
 	}
-	_putchar ('\n') ;
+	_putchar ('\n');
 }
 

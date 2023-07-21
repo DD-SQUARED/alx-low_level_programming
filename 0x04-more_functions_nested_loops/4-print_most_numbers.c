@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_most_numbers function checks for a digit
+ * print_most_numbers -  function checks for a digit
  * Return: none
  */
 

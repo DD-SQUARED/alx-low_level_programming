@@ -1,22 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main function finds and prints the largest prime number
+* main - function finds and prints the largest prime number
 * 612852475143 - factor of the number
-* Returns: zero
+* Return: 0
 */
 
 
-int main (void)
+int main(void)
 {
 	long  prime = 612852475143, divisor;
-	
+
 	while (divisor  < (prime / 2))
 	{
 		if ((prime % 2)  ==  0)
 		{
 			prime /= 2;
-			continue ;
+			continue;
 		}
 		for (divisor  = 3; divisor < (prime / 2); divisor += 2)
 		{
@@ -25,7 +25,7 @@ int main (void)
 		}
 	}
 	printf("%ld\n", prime);
-	
+
 	return (0);
 }
 

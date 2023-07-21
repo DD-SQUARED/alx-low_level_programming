@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _print_diagonal function prints a diagonal line
+* print_diagonal -  function prints a diagonal line
 * @n: the number of times \ should be printed
 * Returns: none
 */
