@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _mul function checks for a digit
+* mul - function checks for a digit
 * @a: a - variable
 * @b: b - variable
 * Return: 0
