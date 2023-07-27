@@ -1,8 +1,4 @@
 #include <stdio.h>
-/*
- *main - function of  the program is to print a[2] = 98, followed by a new line
- *Return: 0
- */
 
 int main(void)
 {
