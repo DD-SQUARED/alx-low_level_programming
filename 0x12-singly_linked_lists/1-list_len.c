@@ -5,7 +5,7 @@
  * list_len - number of elements in the  linked list
  * @h: pointers to list_t 
  *
- * Return: the elements in m
+ * Return: h
  */
 size_t list_len(const list_t *h)
 {
@@ -13,7 +13,7 @@ size_t list_len(const list_t *h)
 
 	while (h)
 	{
-		h = h>next;
+		h = h->next;
 		n++;
 	}
 	return (n);
