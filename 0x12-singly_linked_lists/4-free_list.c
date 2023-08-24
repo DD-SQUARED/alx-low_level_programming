@@ -4,6 +4,7 @@
 /**
  * free_list - linked list frred and returns nothing
  * @head: list_t list freed
+ * return: 0
  */
 void free_list(list_t *head)
 {
@@ -16,5 +17,7 @@ void free_list(list_t *head)
 		free(head);
 		head = temp;
 	}
+
+	return (0)
 }
 
