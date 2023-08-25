@@ -3,8 +3,7 @@
 
 /**
  * print_list - all the elements of the linked list printed
- * @h: pointers to the list_t lists 
- *
+ * @h: pointers to the list_t lists
  * Return: number of nodes
  */
 size_t print_list(const list_t *h)
@@ -19,7 +18,7 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			printf("[%u] %s\n",h->len,  h->str);
+			printf("[%u] %s\n", h->len, h->str);
 		}
 		h=h->next;
 		s++;

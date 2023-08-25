@@ -4,9 +4,8 @@
 
 /**
  * add_node - new node added to beginning of linked list
- * @head: pointer to list_t 
+ * @head: pointer to list_t
  * @str: new string added to the node
- *
  * Return: address of element, or NULL failure
  */
 list_t *add_node(list_t **head, const char *str)
@@ -15,11 +14,11 @@ list_t *add_node(list_t **head, const char *str)
 	unsigned int len = 0;
 
 	while (str[len])
-	{
+	
 		len++;
 
 	new = malloc(sizeof(list_t));
-	
+
 	if (!new)
 	{
 		return (NULL);
@@ -29,8 +28,6 @@ list_t *add_node(list_t **head, const char *str)
 	new->len = len;
 	new->next = (*head);
 	(*head) = new;
-
-	}
 
 	return (*head);
 }
