@@ -3,7 +3,7 @@
 
 /**
  * free_list - linked list frred and returns nothing
- * @head: list_t list freed
+ * @head: list_t list free
  */
 void free_list(list_t *head)
 {
