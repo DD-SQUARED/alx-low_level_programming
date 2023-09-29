@@ -6,7 +6,7 @@
  * @n: bytes to be changed
  * Return: changed array with bytes
  */
-char *_memset(char *c, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	int i = 0;
 
