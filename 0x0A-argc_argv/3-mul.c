@@ -3,7 +3,7 @@
 
 /**
  * _code - string converted to integer
- * @c: the string will be converted 
+ * @c: the string will be converted
  * Return: integer from the string
  */
 int _code(char *c)
